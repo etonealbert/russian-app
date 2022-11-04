@@ -81,6 +81,7 @@
                     <connections>
                         <outlet property="cubeOne" destination="22Z-vu-YSf" id="Baf-ut-Ppw"/>
                         <outlet property="cubeTwo" destination="SPE-OK-KPc" id="rho-RE-J2Y"/>
+                        <outlet property="labelit" destination="8nG-ZN-PDS" id="fmX-3B-ohF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mDM-d7-cLh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

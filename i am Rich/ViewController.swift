@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(imageView)
-        DispatchQueue.main.asyncAfter(deadline: .now()+7) {
+        DispatchQueue.main.asyncAfter(deadline: .now()+4) {
             self.performSegue(withIdentifier: "segue", sender: self)
         }
        
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         imageView.center = view.center
-        DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
             self.animation()
         }
 
